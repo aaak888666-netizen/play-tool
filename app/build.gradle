@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.example.playtool'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.playtool"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    // 本应用只使用系统自带 API（文字转语音、音量管理），无需任何第三方依赖
+}

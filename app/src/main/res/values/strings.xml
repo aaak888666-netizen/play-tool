@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">播放工具</string>
+    <string name="btn_left">从一号桌子开始</string>
+    <string name="btn_right">从二号桌子开始</string>
+    <string name="volume_label">音量调节</string>
+    <string name="volume_percent_default">100%</string>
+    <string name="volume_percent">%1$d%%</string>
+    <string name="text_left">小智小智，请按照1号餐桌、2号餐桌的顺序开始清洁。</string>
+    <string name="text_right">小智小智，请按照2号餐桌、1号餐桌的顺序开始清洁。</string>
+</resources>
